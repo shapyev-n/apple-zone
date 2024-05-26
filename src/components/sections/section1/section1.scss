@@ -1,0 +1,62 @@
+#hero {
+  width: 100%;
+  height: 100vh;
+  .hero {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    .top,
+    .center,
+    .bottom {
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      img {
+        width: inherit;
+        height: inherit;
+        object-fit: cover;
+        position: absolute;
+      }
+      .txt {
+        scroll-snap-align: center;
+        width: inherit;
+        height: inherit;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        padding-top: 30px;
+        h1 {
+          color: #1d1d1f;
+          font-size: 51.08px;
+          font-weight: 600;
+          line-height: 60px;
+          letter-spacing: -0.2800000011920929px;
+          text-align: center;
+        }
+        p {
+          color: #1d1d1f;
+          font-size: 24.5px;
+          font-weight: 400;
+          letter-spacing: 0.19599999487400055px;
+          text-align: center;
+        }
+        .btns {
+          padding: 20px 0;
+          display: flex;
+          gap: 20px;
+          button {
+            padding: 0 20px;
+            font-size: 16.87px;
+            font-weight: 400;
+            letter-spacing: -0.37400001287460327px;
+            color: #0066cc;
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+}

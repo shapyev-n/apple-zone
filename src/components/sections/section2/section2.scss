@@ -1,0 +1,73 @@
+#cards {
+  .cards {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .main {
+      width: 100%;
+      display: flex;
+      gap: 10px;
+      div {
+        width: 50%;
+        height: 100vh;
+        position: relative;
+        .imgMain {
+          width: 100%;
+          height: inherit;
+          object-fit: cover;
+          position: absolute;
+          top: 0;
+        }
+        .txt {
+          width: 100%;
+          height: inherit;
+          position: absolute;
+          bottom: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+          .inImg {
+            padding-top: 70vh;
+          }
+          .in_imgs {
+            padding-top: 8vh;
+          }
+          h3 {
+            color: #f5f5f7;
+            font-size: 36.25px;
+            font-weight: 600;
+            line-height: 44px;
+            text-align: center;
+          }
+          p {
+            font-size: 18.21px;
+            font-weight: 400;
+            letter-spacing: 0.23100000619888306px;
+            text-align: center;
+            color: #1d1d1f;
+          }
+          .colors {
+            color: #f5f5f7;
+          }
+          .btns {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px 0 0;
+            button {
+              padding: 0 20px;
+              background: transparent;
+              color: #0071e3;
+              font-size: 13.89px;
+              font-weight: 400;
+              letter-spacing: -0.2240000069141388px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

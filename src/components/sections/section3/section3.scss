@@ -1,0 +1,26 @@
+#section3 {
+  position: relative;
+  .left_bg,
+  .right_bg {
+    width: 25%;
+    height: 100vh;
+    position: absolute;
+    z-index: 9;
+  }
+  .left_bg {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      #fff 100%
+    );
+    right: 0;
+  }
+  .right_bg {
+    background: linear-gradient(
+      -90deg,
+      rgba(255, 255, 255, 0) 0%,
+      #fff 100%
+    );
+    left: 0;
+  }
+}
